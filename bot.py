@@ -30,9 +30,9 @@ async def greet(client,message):
 @Delevents.on_message(filters.private & filters.command('start'))
 async def pmfilter(client, message):
     me = await message._client.get_me()
-    await message.reply_text("I can Delete Service Messages of Your Group,"
-                             " Just Add me There as an Admin.",
-                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ðŸ”¶ ADD Me ðŸ”¶",url=f"https://t.me/{me.username}?startgroup=true")]]),
+    await message.reply_text( f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
+I am Delete Events bot, I can delete Service message. Just Add me in group as admin.""",
+                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ðŸ”¶ ADD Me ðŸ”¶",url=f"https://t.me/Del_Events_Bot?startgroup=true")]]),
                              quote=True)
 
 @Delevents.on_message(filters.private & ~filters.command('start'))
