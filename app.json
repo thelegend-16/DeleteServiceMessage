@@ -1,8 +1,8 @@
 {
     "name": "Delete Events Bot",
     "description": "Bot to Clean Service Messages in Your Group",
-    "repository": "https://github.com/New-dev0/Minibots/tree/Delete-Events",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlA1UbjifRbDrwKNSg31u9-vQ15dbYOuwz-g&usqp=CAU",
+    "repository": "https://github.com/thelegend-16/DeleteServiceMessage",
+    "logo": "https://telegra.ph/file/a3c2c9da4336669269729.jpg",
     "keywords": ["telegram","service messages cleaner","pyrogram","delete events","bot", "telegram bot"],
     "env": {
         "API_ID": {
