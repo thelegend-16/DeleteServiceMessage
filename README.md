@@ -15,3 +15,4 @@ A **Telegram Bot** to Delete Service Messages in Your Group/Channel. Just add it
 
 ## Thanks to 
 * **[Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/Pyrogram/Pyrogram)**
+* **[New-dev0](https://github.com/New-dev0)**
