@@ -1,3 +1,5 @@
+#Thanks to @Anonymous_Machinee 😇
+
 from vars import var
 from pyrogram import  Client,filters
 from pyrogram.types import (
